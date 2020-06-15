@@ -7,7 +7,7 @@ Licence: MIT
 //TODO Fix resizing issues
 //TODO 1: ADD SVG support
 //TODO 2: FIX the keep_list true and rotation false instant expand glitch
-
+$('.header_stars').remove();
 //put your custom configuration settings here
 var user_configuration={
 	shape:"circle", //could be "circle" or "square"
