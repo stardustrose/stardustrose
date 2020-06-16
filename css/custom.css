@@ -33,6 +33,14 @@
   animation-timing-function: ease-in-out;
   -webkit-animation-timing-function: ease-in-out;
   animation-duration: 4s;
+  -webkit-backface-visibility: hidden;
+
+}
+
+@media only screen and (max-width: 1197px) and (min-width: 768px) {
+  .header_foxes {
+    max-width: 350px;
+  }
 }
 
 /* .main-header */
@@ -91,6 +99,8 @@
   animation-timing-function: ease-in-out;
   -webkit-animation-timing-function: ease-in-out;
   animation-duration: 4s;
+  -webkit-backface-visibility: hidden;
+
 }
 
 @keyframes floating {
