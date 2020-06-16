@@ -783,15 +783,15 @@ body {
   }
 
   25% {
-    transform: translate(10%, -15%);
+    transform: translate(0%, -15%);
   }
 
   50% {
-    transform: translate(20%, -5%);
+    transform: translate(0%, -5%);
   }
 
   75% {
-    transform: translate(10%, -7%);
+    transform: translate(0%, -7%);
   }
 
   100% {
@@ -805,15 +805,15 @@ body {
   }
 
   25% {
-    -webkit-transform: translate(10%, 15%);
+    -webkit-transform: translate(0%, 15%);
   }
 
   50% {
-    -webkit-transform: translate(20%, 5%);
+    -webkit-transform: translate(0%, 5%);
   }
 
   75% {
-    -webkit-transform: translate(10%, 15%);
+    -webkit-transform: translate(0%, 15%);
   }
 
   100% {
