@@ -637,7 +637,7 @@ body {
   height: 60vh;
   width: 100%;
   background: #bd7fef;
-  background: linear-gradient(to bottom, #bd7fef 0%,#4d26ab 30%, #231d72 80%);
+  background: linear-gradient(to bottom, #bd7fef 0%,#4d26ab 40%, #231d72 80%);
 }
 
 .header_stars {
