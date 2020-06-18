@@ -669,6 +669,12 @@ body {
   }
 }
 
+@media only screen and (max-width: 768px) {
+  .header_foxes {
+    display: none;
+  }
+}
+
 /* .main-header */
 
 .main-header_title {
@@ -718,19 +724,21 @@ body {
   background: #fff;
 }
 
-/* svgs */
+@media only screen and (min-width: 768px) {
+  /* svgs */
 
-.planet-surface-svg {
-  z-index: 1 !important;
-  animation-name: floating;
-  -webkit-animation-name: floating;
-  animation-iteration-count: infinite;
-  -webkit-animation-iteration-count: infinite;
-  animation-timing-function: ease-in-out;
-  -webkit-animation-timing-function: ease-in-out;
-  -webkit-animation-duration: 4s;
-          animation-duration: 4s;
-  -webkit-backface-visibility: hidden;
+  .planet-surface-svg {
+    z-index: 1 !important;
+    animation-name: floating;
+    -webkit-animation-name: floating;
+    animation-iteration-count: infinite;
+    -webkit-animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    -webkit-animation-timing-function: ease-in-out;
+    -webkit-animation-duration: 4s;
+            animation-duration: 4s;
+    -webkit-backface-visibility: hidden;
+  }
 }
 
 @keyframes floating {
