@@ -592,8 +592,8 @@ video {
 }
 
 body {
-  font-family: "Open Sans";
-  font-weight: 300;
+  font-family: 'Nunito';
+  font-weight: 400
 }
 
 .container {
@@ -628,6 +628,16 @@ body {
 
 .sample-component {
   padding: 0.25rem;
+}
+
+.nunito-bold {
+  font-family: 'Nunito';
+  font-weight: 800
+}
+
+.nunito-regular {
+  font-family: 'Nunito';
+  font-weight: 400
 }
 
 /* stars for .main-header */
@@ -678,7 +688,7 @@ body {
 /* .main-header */
 
 .main-header_title {
-  font-family: "caveat";
+  font-family: "Reenie Beanie";
   color: #eee;
   padding: 0 2rem;
   font-size: 5rem;
